@@ -1,0 +1,29 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      controlDict;
+}
+application     pimpleFoam;
+startFrom       startTime;
+startTime       20.000000000000014;
+stopAt          endTime;
+endTime         20.110000000000017;
+deltaT          0.01;
+maxDeltaT	   0.10000000000000142;
+adjustTimeStep  yes;
+maxCo           0.75;
+writeControl    adjustableRunTime;
+writeInterval   0.10000000000000142;
+writeFormat     ascii;
+writePrecision  14;
+writeCompression off;
+timeFormat      general;
+timePrecision   12;
+runTimeModifiable true;
+functions
+{
+    #include "forceCoeffs"
+}

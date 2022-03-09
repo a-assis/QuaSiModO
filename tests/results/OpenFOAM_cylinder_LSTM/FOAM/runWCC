@@ -1,0 +1,3 @@
+source /lib/openfoam/openfoam2112/etc/bashrc
+postProcess -func writeCellCentres -case $1
+postProcess -func writeCellVolumes -case $1

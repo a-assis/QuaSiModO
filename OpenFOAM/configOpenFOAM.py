@@ -1,8 +1,11 @@
 def getPaths():
-    pathOF = '/home/speitz/OpenFOAM/OpenFOAM-v1912/'  \
+    pathOF = '/lib/openfoam/openfoam2112/'
+    # pathOF = '/home/speitz/OpenFOAM/OpenFOAM-v1912/'  \
     # pathOF = '/cm/shared/apps/pc2/EB-SW/software/cae/OpenFOAM/6-foss-2018b/OpenFOAM-6/'
 
-    pathThirdParty = '/home/speitz/OpenFOAM/ThirdParty-v1912/'
+    #pathThirdParty = '/home/speitz/OpenFOAM/ThirdParty-v1912/'
+
+    pathThirdParty = '/lib/openfoam/openfoam2112/'
 
     additionalCommands = None
     # additionalCommands = ['module add cae/OpenFOAM/6-foss-2018b']

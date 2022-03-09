@@ -1,0 +1,13 @@
+source /lib/openfoam/openfoam2112/etc/bashrc
+if [ $# -lt 2 ]
+then 
+    np=1
+else
+    np=$2
+fi
+if [ $np -eq 1 ]
+then
+    pimpleFoam -case $1
+else
+    mpirun -np $np pimpleFoam -case $1 -parallel
+fi
