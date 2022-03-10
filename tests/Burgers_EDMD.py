@@ -76,6 +76,8 @@ plot(u={'t': dataSet.rawData.t[0], 'u': dataSet.rawData.u[0], 'iplot': 0},
      y={'t': dataSet.rawData.t[0], 'y': dataSet.rawData.y[0], 'iplot': 2, 'legend': False},
      z={'t': dataSet.rawData.t[0], 'z': dataSet.rawData.z[0], 'iplot': 3})
 
+
+
 # -------------------------------------------------------------------------------------------------------------------- #
 # Surrogate modeling
 # -------------------------------------------------------------------------------------------------------------------- #
